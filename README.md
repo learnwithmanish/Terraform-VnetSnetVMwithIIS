@@ -3,7 +3,7 @@ Title: Terraform Code to deploy Azure Resources
 description: A simple terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with IIS installation
 ---
 # Terraform-VnetSnetVMwithIIS
-Terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with IIS installation
+Terraform code to deploy 1 Virtual Network with 3 Subnets , 3 windows VMs with IIS installation
 
 ## How to Use
   ### Pre-requisite 
@@ -62,7 +62,7 @@ Terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with I
    **Notes** : IIS is not installed in VM3. It is left intentionally to see the differences.    
      
  ### Follow the below steps to destroy or remove the resources deployed
-    To destroy or clean up the resoruces you deployed use the below commands
+    To destroy or clean up the resources you deployed use the below commands
     
     1. > terraform plan -destroy -out myPlan-destroy.tfplan
 
