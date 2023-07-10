@@ -1,6 +1,6 @@
 ---
 Title: Terraform Code to deploy Azure Resources
-description: A simple terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with IIS installation
+Description: A simple terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with IIS installation
 ---
 # Terraform-VnetSnetVMwithIIS
 Terraform code to deploy 1 Virtual Network with 3 Subnets , 3 windows VMs with IIS installation
