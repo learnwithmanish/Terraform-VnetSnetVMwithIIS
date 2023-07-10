@@ -50,7 +50,16 @@ Terraform code to deploy 1 Virutal Network with 3 Subnets , 3 windows VMs with I
     
     1. > terraform output -raw VM1-admin_password
     
-    # Replace VM1 with VM2 and VM3 to see their passwords    
+    # Replace VM1 with VM2 and VM3 to see their passwords   
+
+   ### Verify the Environment and Test the IIS installation
+   
+   To verify the resources are deployed or not, you can visit Azure Portal and check
+
+   To check if IIS is installed and working , copy the **Public IP** of **VM1** and **VM2**
+   and Open it in browser. It should load the default web page of IIS.
+
+   **Notes** : IIS is not installed in VM3. It is left intentionally to see the differences.    
      
  ### Follow the below steps to destroy or remove the resources deployed
     To destroy or clean up the resoruces you deployed use the below commands
