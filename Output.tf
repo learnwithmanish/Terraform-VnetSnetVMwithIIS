@@ -15,7 +15,7 @@ output "VM1-admin_password" {
   value     = azurerm_windows_virtual_machine.VM1.admin_password
 }
 
-output "VM2admin_password" {
+output "VM2-admin_password" {
   sensitive = true
   value     = azurerm_windows_virtual_machine.VM2.admin_password
 }
